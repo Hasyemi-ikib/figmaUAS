@@ -1,0 +1,779 @@
+Container(
+  width: 4934,
+  height: 4413,
+  decoration: BoxDecoration(color: Color(0xFF16163B)),
+),
+Container(
+  width: 274,
+  height: 266,
+  child: Stack(),
+),
+Container(
+  width: 415.71,
+  height: 768,
+  child: Stack(
+    children: [
+      Positioned(
+        left: 0,
+        top: 0,
+        child: Container(
+          width: 360,
+          height: 768,
+          padding: const EdgeInsets.only(
+            top: 52,
+            left: 26,
+            right: 26,
+            bottom: 62,
+          ),
+          clipBehavior: Clip.antiAlias,
+          decoration: ShapeDecoration(
+            color: Color(0xFFF1F5FF),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(47),
+            ),
+          ),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Container(
+                width: 360,
+                height: 32,
+                padding: const EdgeInsets.symmetric(horizontal: 24),
+                clipBehavior: Clip.antiAlias,
+                decoration: BoxDecoration(color: Colors.white),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.end,
+                  children: [
+                    Text(
+                      '9:30',
+                      style: TextStyle(
+                        color: Color(0xFF003F5F),
+                        fontSize: 18,
+                        fontFamily: 'Poppins',
+                        fontWeight: FontWeight.w500,
+                        height: 0.06,
+                        letterSpacing: 0.18,
+                      ),
+                    ),
+                    Container(
+                      width: 54.12,
+                      height: 20,
+                      child: Stack(
+                        children: [
+                          Positioned(
+                            left: 0,
+                            top: 0,
+                            child: Container(
+                              width: 20,
+                              height: 20,
+                              child: Stack(
+                                children: [
+                                  Positioned(
+                                    left: 0,
+                                    top: 0,
+                                    child: Container(width: 20, height: 20),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                          Positioned(
+                            left: 18.82,
+                            top: -0,
+                            child: Container(width: 20, height: 20, child: Stack()),
+                          ),
+                          Positioned(
+                            left: 44.71,
+                            top: 1.18,
+                            child: Container(
+                              width: 9.41,
+                              height: 17.65,
+                              child: FlutterLogo(),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 30),
+              Container(
+                width: 270,
+                height: 66,
+                padding: const EdgeInsets.symmetric(horizontal: 20),
+                clipBehavior: Clip.antiAlias,
+                decoration: ShapeDecoration(
+                  color: Colors.white,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(22),
+                  ),
+                  shadows: [
+                    BoxShadow(
+                      color: Color(0xFFDADADA),
+                      blurRadius: 3,
+                      offset: Offset(0, 1),
+                      spreadRadius: 0,
+                    )
+                  ],
+                ),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Container(
+                      width: 58.90,
+                      height: 58.90,
+                      padding: const EdgeInsets.all(16.83),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          Container(
+                            width: 25.24,
+                            height: 25.24,
+                            padding: const EdgeInsets.only(
+                              top: 3.16,
+                              left: 3.16,
+                              right: 3.69,
+                              bottom: 3.69,
+                            ),
+                            child: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                              ,
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      width: 58.90,
+                      height: 58.90,
+                      padding: const EdgeInsets.all(16.83),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          Container(
+                            width: 25.24,
+                            height: 25.24,
+                            padding: const EdgeInsets.symmetric(horizontal: 3.16, vertical: 2.10),
+                            child: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                              ,
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      width: 58.90,
+                      height: 58.90,
+                      padding: const EdgeInsets.all(16.83),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          Container(
+                            width: 25,
+                            height: 25,
+                            padding: const EdgeInsets.symmetric(vertical: 2.78),
+                            clipBehavior: Clip.antiAlias,
+                            decoration: BoxDecoration(color: Colors.black.withOpacity(0)),
+                            child: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                              ,
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      padding: const EdgeInsets.all(16.83),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          Container(
+                            width: 25.24,
+                            height: 25.24,
+                            child: Stack(
+                              children: [
+                                Positioned(
+                                  left: 0,
+                                  top: 0,
+                                  child: Container(
+                                    width: 25.24,
+                                    height: 25.24,
+                                    padding: const EdgeInsets.all(4.21),
+                                    child: Row(
+                                      mainAxisSize: MainAxisSize.min,
+                                      mainAxisAlignment: MainAxisAlignment.center,
+                                      crossAxisAlignment: CrossAxisAlignment.center,
+                                      children: [
+                                        Container(
+                                          width: 16.83,
+                                          height: 16.83,
+                                          decoration: BoxDecoration(
+                                            image: DecorationImage(
+                                              image: NetworkImage("https://via.placeholder.com/17x17"),
+                                              fit: BoxFit.fill,
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ),
+                                Positioned(
+                                  left: 8.28,
+                                  top: 4.14,
+                                  child: Container(
+                                    width: 8.69,
+                                    height: 8.69,
+                                    decoration: ShapeDecoration(
+                                      color: Colors.white,
+                                      shape: OvalBorder(),
+                                    ),
+                                  ),
+                                ),
+                                Positioned(
+                                  left: 8.28,
+                                  top: 4.14,
+                                  child: Container(
+                                    width: 8.69,
+                                    height: 8.69,
+                                    padding: const EdgeInsets.all(0.14),
+                                    clipBehavior: Clip.antiAlias,
+                                    decoration: BoxDecoration(color: Colors.black.withOpacity(0)),
+                                    child: Row(
+                                      mainAxisSize: MainAxisSize.min,
+                                      mainAxisAlignment: MainAxisAlignment.center,
+                                      crossAxisAlignment: CrossAxisAlignment.center,
+                                      children: [
+                                      ,
+                                      ],
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+      Positioned(
+        left: 0,
+        top: 96,
+        child: Container(
+          width: 415.71,
+          height: 511,
+          child: Stack(
+            children: [
+              Positioned(
+                left: 0,
+                top: 327.96,
+                child: Container(
+                  width: 415.71,
+                  height: 26.15,
+                  child: Stack(
+                    children: [
+                      Positioned(
+                        left: 129.05,
+                        top: 0,
+                        child: SizedBox(
+                          width: 158.75,
+                          height: 26.15,
+                          child: Text.rich(
+                            TextSpan(
+                              children: [
+                                TextSpan(
+                                  text: 'Login',
+                                  style: TextStyle(
+                                    color: Color(0xFF1C1C1C),
+                                    fontSize: 16,
+                                    fontFamily: 'Poppins',
+                                    fontWeight: FontWeight.w700,
+                                    height: 0,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: ' with Others',
+                                  style: TextStyle(
+                                    color: Color(0xFF525252),
+                                    fontSize: 16,
+                                    fontFamily: 'Poppins',
+                                    fontWeight: FontWeight.w400,
+                                    height: 0,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                      ),
+                      Positioned(
+                        left: 0,
+                        top: 12.07,
+                        child: Container(
+                          width: 415.71,
+                          height: 1,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: NetworkImage("https://via.placeholder.com/416x1"),
+                              fit: BoxFit.fill,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              Positioned(
+                left: 154.18,
+                top: 0,
+                child: SizedBox(
+                  width: 106.21,
+                  height: 22.88,
+                  child: Text(
+                    'LOGIN',
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 30,
+                      fontFamily: 'Poppins',
+                      fontWeight: FontWeight.w700,
+                      height: 0,
+                    ),
+                  ),
+                ),
+              ),
+              Positioned(
+                left: 39.97,
+                top: 31.60,
+                child: SizedBox(
+                  width: 334.62,
+                  height: 26.15,
+                  child: Text(
+                    'Insert your username and password.',
+                    style: TextStyle(
+                      color: Color(0xFF525252),
+                      fontSize: 16,
+                      fontFamily: 'Poppins',
+                      fontWeight: FontWeight.w400,
+                      height: 0,
+                    ),
+                  ),
+                ),
+              ),
+              Positioned(
+                left: 11,
+                top: 163,
+                child: Container(
+                  width: 349,
+                  height: 56.66,
+                  child: Stack(
+                    children: [
+                      Positioned(
+                        left: 0,
+                        top: 0,
+                        child: Container(
+                          width: 349,
+                          height: 56.66,
+                          decoration: ShapeDecoration(
+                            color: Color(0xCCEFEDFF),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(16),
+                            ),
+                          ),
+                        ),
+                      ),
+                      Positioned(
+                        left: 46.02,
+                        top: 18.52,
+                        child: SizedBox(
+                          width: 55.61,
+                          height: 19.61,
+                          child: Text(
+                            'Password',
+                            style: TextStyle(
+                              color: Color(0xFF1C1C1C),
+                              fontSize: 10,
+                              fontFamily: 'Poppins',
+                              fontWeight: FontWeight.w400,
+                              height: 0,
+                            ),
+                          ),
+                        ),
+                      ),
+                      Positioned(
+                        left: 17.26,
+                        top: 15.25,
+                        child: Container(
+                          width: 23.01,
+                          height: 26.15,
+                          padding: const EdgeInsets.only(
+                            top: 1.09,
+                            left: 2.88,
+                            right: 2.88,
+                            bottom: 2.18,
+                          ),
+                          clipBehavior: Clip.antiAlias,
+                          decoration: BoxDecoration(),
+                          child: Column(
+                            mainAxisSize: MainAxisSize.min,
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                            ,
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              Positioned(
+                left: 12,
+                top: 82,
+                child: Container(
+                  width: 335,
+                  height: 56.66,
+                  child: Stack(
+                    children: [
+                      Positioned(
+                        left: 0,
+                        top: 0,
+                        child: Container(
+                          width: 335,
+                          height: 56.66,
+                          decoration: ShapeDecoration(
+                            color: Color(0xCCEFEDFF),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(16),
+                            ),
+                          ),
+                        ),
+                      ),
+                      Positioned(
+                        left: 44.18,
+                        top: 18.52,
+                        child: SizedBox(
+                          width: 57.06,
+                          height: 19.61,
+                          child: Text(
+                            'Username',
+                            style: TextStyle(
+                              color: Color(0xFF1C1C1C),
+                              fontSize: 11,
+                              fontFamily: 'Poppins',
+                              fontWeight: FontWeight.w400,
+                              height: 0,
+                            ),
+                          ),
+                        ),
+                      ),
+                      Positioned(
+                        left: 16.57,
+                        top: 15.25,
+                        child: Container(
+                          width: 22.09,
+                          height: 26.15,
+                          padding: const EdgeInsets.only(
+                            top: 1.09,
+                            left: 3.68,
+                            right: 3.68,
+                            bottom: 2.18,
+                          ),
+                          clipBehavior: Clip.antiAlias,
+                          decoration: BoxDecoration(),
+                          child: Column(
+                            mainAxisSize: MainAxisSize.min,
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                            ,
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              Positioned(
+                left: 137.05,
+                top: 245.15,
+                child: Container(
+                  width: 141.61,
+                  height: 56.66,
+                  child: Stack(
+                    children: [
+                      Positioned(
+                        left: 0,
+                        top: 0,
+                        child: Container(
+                          width: 141.61,
+                          height: 56.66,
+                          decoration: ShapeDecoration(
+                            gradient: LinearGradient(
+                              begin: Alignment(0.99, -0.17),
+                              end: Alignment(-0.99, 0.17),
+                              colors: [Color(0xFFE5E2F6), Color(0xFF6FC9F6)],
+                            ),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(16),
+                            ),
+                            shadows: [
+                              BoxShadow(
+                                color: Color(0x28000000),
+                                blurRadius: 21,
+                                offset: Offset(0, 8),
+                                spreadRadius: 0,
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                      Positioned(
+                        left: 34.26,
+                        top: 18.52,
+                        child: SizedBox(
+                          width: 71.95,
+                          height: 19.61,
+                          child: Text(
+                            'Login Now',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 12,
+                              fontFamily: 'Poppins',
+                              fontWeight: FontWeight.w700,
+                              height: 0,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              Positioned(
+                left: 0,
+                top: 380.25,
+                child: Container(
+                  width: 415.71,
+                  height: 130.75,
+                  child: Stack(
+                    children: [
+                      Positioned(
+                        left: 0,
+                        top: 0,
+                        child: Container(
+                          width: 415.71,
+                          height: 56.66,
+                          child: Stack(
+                            children: [
+                              Positioned(
+                                left: 0,
+                                top: 0,
+                                child: Container(
+                                  width: 415.71,
+                                  height: 56.66,
+                                  decoration: ShapeDecoration(
+                                    shape: RoundedRectangleBorder(
+                                      side: BorderSide(width: 1, color: Color(0xFFF0EDFF)),
+                                      borderRadius: BorderRadius.circular(16),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                left: 125.63,
+                                top: 11.98,
+                                child: Container(
+                                  width: 164.46,
+                                  height: 32.69,
+                                  child: Stack(
+                                    children: [
+                                      Positioned(
+                                        left: 43.40,
+                                        top: 6.54,
+                                        child: SizedBox(
+                                          width: 121.06,
+                                          height: 19.61,
+                                          child: Text.rich(
+                                            TextSpan(
+                                              children: [
+                                                TextSpan(
+                                                  text: 'Login with ',
+                                                  style: TextStyle(
+                                                    color: Color(0xFF1C1C1C),
+                                                    fontSize: 12,
+                                                    fontFamily: 'Poppins',
+                                                    fontWeight: FontWeight.w400,
+                                                    height: 0,
+                                                  ),
+                                                ),
+                                                TextSpan(
+                                                  text: 'google',
+                                                  style: TextStyle(
+                                                    color: Color(0xFF1C1C1C),
+                                                    fontSize: 12,
+                                                    fontFamily: 'Poppins',
+                                                    fontWeight: FontWeight.w700,
+                                                    height: 0,
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                      Positioned(
+                                        left: 0,
+                                        top: 0,
+                                        child: Container(
+                                          width: 34.26,
+                                          height: 32.69,
+                                          decoration: BoxDecoration(
+                                            image: DecorationImage(
+                                              image: NetworkImage("https://via.placeholder.com/34x33"),
+                                              fit: BoxFit.fill,
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                      Positioned(
+                        left: 0,
+                        top: 74.09,
+                        child: Container(
+                          width: 415.71,
+                          height: 56.66,
+                          child: Stack(
+                            children: [
+                              Positioned(
+                                left: 0,
+                                top: 0,
+                                child: Container(
+                                  width: 415.71,
+                                  height: 56.66,
+                                  decoration: ShapeDecoration(
+                                    shape: RoundedRectangleBorder(
+                                      side: BorderSide(width: 1, color: Color(0xFFF0EDFF)),
+                                      borderRadius: BorderRadius.circular(16),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                left: 115.35,
+                                top: 11.98,
+                                child: Container(
+                                  width: 185.01,
+                                  height: 32.69,
+                                  child: Stack(
+                                    children: [
+                                      Positioned(
+                                        left: 43.40,
+                                        top: 6.54,
+                                        child: SizedBox(
+                                          width: 141.61,
+                                          height: 19.61,
+                                          child: Text.rich(
+                                            TextSpan(
+                                              children: [
+                                                TextSpan(
+                                                  text: 'Login with ',
+                                                  style: TextStyle(
+                                                    color: Color(0xFF1C1C1C),
+                                                    fontSize: 12,
+                                                    fontFamily: 'Poppins',
+                                                    fontWeight: FontWeight.w400,
+                                                    height: 0,
+                                                  ),
+                                                ),
+                                                TextSpan(
+                                                  text: 'Facebook',
+                                                  style: TextStyle(
+                                                    color: Color(0xFF1C1C1C),
+                                                    fontSize: 12,
+                                                    fontFamily: 'Poppins',
+                                                    fontWeight: FontWeight.w700,
+                                                    height: 0,
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                      Positioned(
+                                        left: 0,
+                                        top: 0,
+                                        child: Container(
+                                          width: 34.26,
+                                          height: 32.69,
+                                          decoration: BoxDecoration(
+                                            image: DecorationImage(
+                                              image: NetworkImage("https://via.placeholder.com/34x33"),
+                                              fit: BoxFit.fill,
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    ],
+  ),
+)
